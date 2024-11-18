@@ -1,0 +1,15 @@
+{
+    "name": "instabytes-back",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --trace-warnings server.js"
+    },
+    "license": "AGPL-version-3.0",
+    "private": false,
+    "dependencies": {
+        "express": "^4.21.1"
+    }
+}
