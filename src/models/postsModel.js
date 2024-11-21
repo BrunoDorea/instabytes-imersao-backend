@@ -6,3 +6,10 @@ export async function getAllPosts(){
     const colecao = db.collection('posts')
     return colecao.find().toArray()
 }
+
+export async function createNewPost(newPost) {
+    const db = conexao.db('instabytes')
+    const colecao = db.collection('posts')
+
+    return colecao.insertOne(newPost)
+}

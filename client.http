@@ -4,3 +4,12 @@ GET http://localhost:3000/ping
 ### GET ALL POSTS
 GET http://localhost:3000/posts
 
+### POST CREATE NEW POST
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "descricao": "Neo Bla bla",
+    "imagemUrl": "https://placecats.com/neo/300/200",
+    "alt": "Gato Neo"
+}
